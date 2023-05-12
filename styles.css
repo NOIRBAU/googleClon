@@ -123,6 +123,10 @@ main .main__logo {
     display: inline
  }
 
+ input[type="text"] {
+    color: var(--white-color);
+}
+
 main .main__buttons {
     width: 540px;
     margin: 0 auto;
@@ -211,7 +215,6 @@ footer .footer__nav {
 }
 
 footer .footer__nav--left {
-    display: inline-block;
     font-size: 14px;
     float: left;
 }
@@ -222,7 +225,6 @@ footer .footer__nav--left a {
 }
 
 footer .footer__nav--right {
-    display: inline-block;
     font-size: 14px;
     float: right;
     margin-right: 25px;
